@@ -1,4 +1,4 @@
-# KyotSheep
+# Discord Bot
 This is my biggest bot so far and has most amount of features.
 
 I'm really new to coding so you might wanna puke after looking at the code.
