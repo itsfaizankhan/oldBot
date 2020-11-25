@@ -10,7 +10,7 @@ As far as documentation goes, I'm lazy enough for now not to make any.
 Install:
 1. `discord.py` (rewrite)
 
-2. Make a `.env` file and add `TOKEN="<YOU BOT TOKEN HERE>"
+2. Make a `.env` file and add `TOKEN="<YOU BOT TOKEN HERE>"`
 
 Optional:
 3. `discord-pretty-help`
