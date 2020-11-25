@@ -22,3 +22,5 @@ Note: If you want the default help command or using your own custom one, then re
 a. `help_command=PrettyHelp()` from `Bot()` in `main.py`. 
 
 b. `from pretty_help import PrettyHelp` in `main.py`.
+
+## DO NOT REVEAL YOUR BOT TOKEN BY ANY MEANS
