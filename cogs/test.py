@@ -8,8 +8,6 @@ class Test(commands.Cog):
 	@commands.Cog.listener()
 	async def on_ready(self):
 		print("Extension loaded: Test")
-		sheep_channel = self.bot.get_channel(761864233893494796)
-		await sheep_channel.send(f'Extension loaded: Test')
 
 	@commands.command()
 	async def test(self, ctx, *, member: discord.Member=None):
