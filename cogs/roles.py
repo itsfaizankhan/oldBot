@@ -11,8 +11,6 @@ class Roles(commands.Cog):
 	@commands.Cog.listener()
 	async def on_ready(self):
 		print('Extension loaded: roles')
-		sheep_channel = self.bot.get_channel(761864233893494796)
-		await sheep_channel.send('Extension loaded: Roles')
 
 
 	@commands.command()
