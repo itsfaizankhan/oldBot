@@ -22,8 +22,6 @@ class Fun(commands.Cog):
 	@commands.Cog.listener()
 	async def on_ready(self):
 		print('Extension loaded: Fun')
-		sheep_channel = self.bot.get_channel(761864233893494796)
-		await sheep_channel.send('Extension loaded: Fun')
 
 	
 	@commands.command(name="fact", aliases=["ft"])
