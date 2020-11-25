@@ -19,6 +19,6 @@ Makes the default help command look really cool.
 
 Note: If you want the default help command or using your own custom one, then remove-
 
-a. `help_command=PrettyHelp()` from `Bot()` in Line 32 of `main.py`. 
+a. `help_command=PrettyHelp()` from `Bot()` in `main.py`. 
 
-b. `from pretty_help import PrettyHelp` from `main.py`.
+b. `from pretty_help import PrettyHelp` in `main.py`.
