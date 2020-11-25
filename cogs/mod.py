@@ -9,8 +9,6 @@ class Moderation(commands.Cog):
 	@commands.Cog.listener()
 	async def on_ready(self):
 		print("Extention loaded: Moderation")
-		sheep_channel = self.bot.get_channel(761864233893494796)
-		await sheep_channel.send('Extension loaded: Moderation')
 		
 		
 	# Giving role via command
