@@ -8,7 +8,7 @@ Also feel free to steal it and make it your own! (Why am I even saying this. Tho
 As far as documentation goes, I'm lazy enough for now not to make any.
 ### Dependecies
 Install:
-1. `discord.py` (rewrite)
+1. `discord.py-1.5.1`
 
 2. Make a `.env` file and add `TOKEN="<YOU BOT TOKEN HERE>"`
 
