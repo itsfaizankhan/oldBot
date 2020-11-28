@@ -8,7 +8,7 @@ from os import environ as cred
 BOT_TOKEN = cred['TOKEN']
 
 """
-Use the below 3 lines of code instead of the above 2 lines.
+Use the below 3 lines of code instead of the above 2 lines if you like but doesn't make any difference.
 
 import os
 os.getenv[’TOKEN']
