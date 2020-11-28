@@ -1,13 +1,18 @@
+from os import environ as cred
+BOT_TOKEN = cred['TOKEN']
+"""
+Use the below code instead of the above one.
+
 import os
+os.getenv[’TOKEN']
+BIMOT_TOKEN = os.environ['TOKEN']
+"""
+
 import discord
 from discord.ext import commands
 from discord.ext.commands import Bot
 
 from pretty_help import PrettyHelp
-
-
-os.getenv("TOKEN")
-BOT_TOKEN = os.environ["TOKEN"]
 
 def prefix_var(bot, message):
 	prefixes = ['M.']
