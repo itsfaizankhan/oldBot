@@ -13,7 +13,7 @@ Use the below 2 lines of code instead of the above 3 lines if you like but doesn
 """
 
 import os
-os.getenv[’TOKEN']
+os.getenv['TOKEN']
 BOT_TOKEN = os.environ['TOKEN']
 
 
