@@ -4,18 +4,18 @@ from discord.ext.commands import Bot
 
 from pretty_help import PrettyHelp
 
-"""
+
 from os import environ as cred
 BOT_TOKEN = cred['TOKEN']
 
-
-Use the below 2 lines of code instead of the above 3 lines if you like but doesn't make any difference.
 """
+Use the below 3 lines of code instead of the above 2 lines if you like but doesn't make any difference.
+
 
 import os
 os.getenv['TOKEN']
 BOT_TOKEN = os.environ['TOKEN']
-
+"""
 
 
 def prefix_var(bot, message):
