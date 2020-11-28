@@ -8,11 +8,11 @@ from os import environ as cred
 BOT_TOKEN = cred['TOKEN']
 
 """
-Use the below 2 lines of code instead of the above one.
+Use the below 3 lines of code instead of the above 2 lines.
 
 import os
 os.getenv[’TOKEN']
-BIMOT_TOKEN = os.environ['TOKEN']
+BOT_TOKEN = os.environ['TOKEN']
 """
 
 
