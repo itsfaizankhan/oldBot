@@ -10,14 +10,13 @@ from pretty_help import PrettyHelp
 from os import environ as cred
 BOT_TOKEN = cred['TOKEN']
 
-"""
-Use the below 3 lines of code instead of the above 2 lines if you like but doesn't make any difference.
 
+# Use the below 3 lines of code instead of the above 2 lines if you like but doesn't make any difference.
 
-import os
-os.getenv['TOKEN']
-BOT_TOKEN = os.environ['TOKEN']
-"""
+# import os
+# os.getenv['TOKEN']
+# BOT_TOKEN = os.environ['TOKEN']
+
 
 
 def prefix_var(bot, message):
@@ -67,13 +66,13 @@ async def on_command_error(ctx, error):
 	if isinstance(error, commands.CommandNotFound):
 		await ctx.send("An error has occured. Please check if you've spelled the command correctly or if it exists at all. `Command Not Found`")
 
-"""
-@bot.event
-async def on_command_error_miss(ctx, error):
-	if isinstance(error, commands.MissingRequiredArguments):
-		await ctx.send("An error has occured. Please check if you've spelled the command correctly or if it exists at all. `Missing Required Arguments`")
 
-"""
+#@bot.event
+#async def on_command_error_miss(ctx, error):
+#	if isinstance(error, commands.MissingRequiredArguments):
+#		await ctx.send("An error has occured. Please check if you've spelled the command correctly or if it exists at all. `Missing Required Arguments`")
+
+
 
 
 bot.run(BOT_TOKEN, bot=True, reconnect=True)
