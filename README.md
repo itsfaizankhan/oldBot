@@ -1,4 +1,4 @@
-# Discord Bot
+# (Deprecated) Discord Bot
 This is my biggest bot so far and has most amount of features. It is tested on `Python 3.8.6` and hopefully runs on later versions as well.
 
 I'm really new to this stuff so you might wanna puke after looking at the code.
